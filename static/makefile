@@ -1,7 +1,7 @@
 all: install build 
 
 install:
-	apt install yarn
+	apt install -y yarn
 	yarn config set registry https://registry.npm.taobao.org
 	yarn install
 
