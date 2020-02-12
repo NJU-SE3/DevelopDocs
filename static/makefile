@@ -1,12 +1,13 @@
 all: install build 
 
 install:
-	apt install -y yarn
-	yarn config set registry https://registry.npm.taobao.org
-	yarn install
+	apt install -y npm
+	# cnpm配置
+	npm install -g cnpm --registry=https://registry.npm.taobao.org
+	cnpm install
 
 build:
-	yarn build
+	cnpm build
 
 docker:
 	docker-compose up -d --build
