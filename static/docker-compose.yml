@@ -6,7 +6,6 @@ services:
     image: hexo-blog
     ports:
       - '9000:80'
-      - '443:443'
     volumes:
       - nginx:/etc/nginx/conf.d
 volumes:
