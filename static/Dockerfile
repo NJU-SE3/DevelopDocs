@@ -13,6 +13,6 @@ RUN echo "https://mirrors.aliyun.com/alpine/v3.9/main/" > /etc/apk/repositories 
     rm -rf /var/cache/apk/*
 
 COPY . .
-RUN yarn install && yarn build
+RUN yarn clean && yarn install && yarn build
 FROM nginx:alpine
 COPY --from=builder /app/public /usr/share/nginx/html
