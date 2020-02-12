@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: OASIS系统
-subtitle: 'A Useful Tool For Analysis'
+title: Hexo
+subtitle: ''
 description: ''
 keywords:
-author: Caribou
+author: John Doe
 language: en
 timezone: ''
 
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: casper
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
