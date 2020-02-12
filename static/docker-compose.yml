@@ -7,6 +7,4 @@ services:
     ports:
       - '9000:80'
     volumes:
-      - nginx:/etc/nginx/conf.d
-volumes:
-  nginx:
+      - './app:/usr/share/nginx/html'
