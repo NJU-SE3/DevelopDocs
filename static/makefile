@@ -11,7 +11,6 @@ install:
     yarn config set registry 'https://registry.npm.taobao.org' && \
     yarn global add pm2 && \
     yarn cache clean && \
-    rm -rf /var/cache/apk/*
 	yarn install
 
 build:
