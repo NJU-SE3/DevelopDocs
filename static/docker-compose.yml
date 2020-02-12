@@ -1,0 +1,12 @@
+version: '2'
+services:
+  blog:
+    container_name: hexo-blog
+    build: .
+    image: hexo-blog
+    ports:
+      - '9000:80'
+    volumes:
+      - nginx:/etc/nginx/conf.d
+volumes:
+  nginx:
