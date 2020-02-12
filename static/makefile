@@ -10,4 +10,6 @@ build:
 	cnpm build
 
 docker:
+	docker-compose down
+	docker rmi $(docker images | grep "none" | awk '{print $3}')
 	docker-compose up -d --build
