@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://106.14.140.93:9000/
+url: http://doc.oasi.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
