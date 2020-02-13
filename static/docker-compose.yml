@@ -11,5 +11,11 @@ services:
       - VIRTUAL_PORT=80
       - LETSENCRYPT_HOST=doc.oasi.top
       - LETSENCRYPT_EMAIL=1071956678@qq.com
+    networks: 
+      - proxy
 volumes:
   nginx:
+
+networks:
+  proxy:
+    external: true
