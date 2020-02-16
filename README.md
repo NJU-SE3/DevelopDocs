@@ -1,6 +1,18 @@
 # DevelopDocs
 Docs for SE3
 
+### 版本控制说明
+
+- 主要在 `dev` 分支进行开发，后续直接merge到master分支即可
+
+- 采用 `hexo` 框架进行博客静态资源的打包
+
+  > 注意：在 `Discussion_Log` 目录下更新文档之后，只需要把文件copy到 `static/source/_posts` 目录下即可
+
+- Merge master分支之后，服务器自动进行 `CI`  。远端地址 http://106.14.140.93/
+
+
+
 ### 1. 迭代一TODO list
 
 - [ ] 文档
