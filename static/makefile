@@ -1,3 +1,5 @@
+HOST = root@106.14.140.93:/root/se3/DevelopDocs/.
+
 all: install build 
 
 install:
@@ -13,3 +15,6 @@ docker:
 	docker-compose down
 	# docker rmi $(docker images | grep "none" | awk '{print $3}')
 	docker-compose up -d --build
+
+resource:
+	scp -r * $(HOST)
